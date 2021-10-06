@@ -1,0 +1,171 @@
+//Обнуляющий стиль
+
+@import "nullStyle.scss";
+
+/*Стилизация блоков*/
+.body{
+   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.wrapper {
+   min-height: 100%;
+   overflow: hidden;
+   display: flex;
+   flex-direction: column;
+}
+.container {
+   max-width: 1180px;
+   margin: 0px auto;
+}
+.content {
+   background-color: indianred;
+   flex: 1 1 auto;
+}
+.hi {
+   background-color: rgb(43, 157, 177);
+   padding: 50px 0;
+		&__row {
+         display: flex;
+         justify-content: space-between;
+         
+		}
+
+		&__body {
+         padding: 0 30px 0 0;
+		}
+
+		&__title {
+         font-size: 60px;
+         margin: 0 0 38px 0;
+		}
+
+		&__list {
+         & li {
+            background: url(/flex/img/icons/icon.png) 0px 3px no-repeat;
+            text-shadow: 2px 1px 3px rgb(138, 157, 218);
+            font-size: 20px;
+            padding: 0 0 0 36px;
+            line-height: 22px;
+            margin: 0 0 17px 0;
+         }
+         & li:last-child{
+            margin: 0;
+         }
+		}
+
+		&__image {
+		}
+}
+
+.title {
+   font-size: 30px;
+   color: rgb(245, 245, 245);
+   text-shadow: 2px 2px 4px rgb(138, 157, 218);
+}
+
+.what {
+   background-color: rgb(255, 255, 255);
+   padding: 50px 0;
+
+   &__row {
+      display: flex;
+   }
+
+   &__image {
+      flex: 0 0 430px;
+   }
+
+   &__body {
+      background-color: rgb(255, 255, 255);
+      flex: 1 1 430px;
+      padding: 0 0 0 38px;
+   }
+
+   &__title { 
+      color: rgb(0, 0, 0);
+   }
+
+   &__text {
+      & p{
+         font-size: 16px;
+         line-height: 20px;
+         margin: 20px 0;
+      }
+   }
+}
+
+
+
+.columns {
+   background-color: rgb(110, 74, 128);
+   padding: 50px 0 20px 0;
+   &__title {
+      text-align: center;
+      margin: 0 0 30px 0;
+   }
+
+   &__row {
+      display: flex;
+      flex-wrap: wrap;
+      margin: 0px -8px;
+   }
+
+   &__column {
+      flex: 0 1 50%;
+      margin: 0 0 30px 0;
+      padding: 0 8px;
+   }
+
+   &__item {
+      background-color: rgb(54, 66, 0);
+   }
+}
+
+
+.item {
+
+   &__row {
+      display: flex;
+   }
+
+   &__image {
+      flex: 0 0 200px;
+   }
+
+   &__body {
+      flex: 1 1 auto;
+      padding: 0 0 0 20px;
+   }
+
+   &__title {
+      font-size: 24px;
+
+      margin: 0 0 20px 0;
+   }
+
+   &__text {
+      letter-spacing: 2px;
+      line-height: 15px;
+
+   }
+}
+
+
+
+
+
+.footer {
+   background-color: rgb(138, 157, 218);
+		&__row {
+         display: flex;
+         height: 65px;
+         align-items: center;
+         justify-content: center;
+         
+		}
+
+		&__text {
+         font-size: 12px;
+         color: rgb(27, 25, 6);
+         letter-spacing: 0.3px;
+		}
+}
