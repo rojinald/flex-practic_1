@@ -7,7 +7,7 @@ In Git CMD , specify the path to the folder where you want to clone the project.
 Then enter the command :                                             
 clone git https://github.com/rojinald/flex-practic_1.git
 ```
-Step #2.
+Step #2.Connect Prepros to the project
 ```sh
 In Prepros, open the project, go to the folder .../#source/scss/style.scss
 and on the right in the OUTPUT FILE column specify the path to .../css/style.css
