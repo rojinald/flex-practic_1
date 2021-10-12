@@ -12,4 +12,4 @@ Step #2. Connect Prepros to the project
 In Prepros, open the project, go to the folder .../#source/scss/style.scss
 and on the right in the OUTPUT FILE column specify the path to .../css/style.css
 ```
-Open the project in VS code, find the style.css file, it describes all the flexbox properties that I used.
+Open the project in VS code, find the style.scss file, it describes all the flexbox properties that I used.
